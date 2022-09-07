@@ -78,7 +78,7 @@ const Card = ({ number, color, symbol, name }) => {
 
       {/* MidSection */}
       <div style={cardMidSection}>
-        {[...Array(Number(number))].map((sym, i) => {
+        {[...new Array(Number(number))].map((sym, i) => {
           i++;
           return (
             <span key={i}>

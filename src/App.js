@@ -1,11 +1,11 @@
 
 import './App.css';
-import Card from './Components/Card';
+import CardsDeck from './Components/CardsDeck';
 
 function App() {
   return (
     <div className="App">
-       <Card name="heart" symbol="♥" color='red' number="1" />
+       <CardsDeck cards='5' />
     </div>
   );
 }
