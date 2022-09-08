@@ -31,22 +31,22 @@
  <h1> Demo </h1>: https://exquisite-fox-df427b.netlify.app/ 
  
  <h1> FEATURES </h1>
-   1. Shuffling random cards
-   2. have restart button
-   3. quit button
-   4. no repititon of card
+   1. Shuffling random cards  <br>
+   2. have restart button  <br>
+   3. quit button  <br>
+   4. no repititon of card  <br>
 
   <h1> WORKING.. </h1>
-    1. randomly suffle cards in set of five
-    2. by chossing any card it not comming again in the another set
-    3. we have one start button that helps you to restart you game in the initail stage
-    4. we have one quit button as well if you click on quit button the game will also start from initial stage again it creates deck of 5 sets.
+    1. randomly suffle cards in set of five  <br>
+    2. by chossing any card it not comming again in the another set  <br>
+    3. we have one start button that helps you to restart you game in the initail stage  <br>
+    4. we have one quit button as well if you click on quit button the game will also start from initial stage again it creates deck of 5 sets.  <br>
  
  
- <h1> TECH STACK </h1>
-  1. REACT
-  2. PURE CSS
-  
+ <h1> TECH STACK </h1>  <br>
+  1. REACT  <br>
+  2. PURE CSS  <br>
+   
 
 
 
