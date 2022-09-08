@@ -4,9 +4,9 @@
 
   <h1>Requirements:</h1>
   
-  <h2> 1. </h2> Node.js (version-16.17.0)
-  <h2> 2. </h2> react  (version-18.2.0)
-   
+   1.  Node.js (version-16.17.0) <br>
+   2.  react  (version-18.2.0)   <br>
+    
   
    <h1> Getting Started with install Node </h1>
    
@@ -15,16 +15,16 @@
   
    <h1> Getting Started with Create React App </h1>
    
-   step 1. Goto any cmdPromt or gitbash or visual studio terminal then type <li> npx create-react-app ProjectName </li>
+   step 1. Goto any cmdPromt or gitbash or visual studio terminal then type <li> npx create-react-app ProjectName </li>  <br>
    
-   <h1>How to Run </h1>
+   <h1>How to Run </h1>  <br>
    
    <h1> Clone this repository: </h1> https://github.com/paruljamwal/Deck_Card_Game.git
-    step1. open cmdpromt or gitbash
-    step2. clone the repo..
-    step3.   npm i
-    step4. npm start
-    
+    step1. open cmdpromt or gitbash  <br>
+    step2. clone the repo..  <br>
+    step3.   npm i  <br>
+    step4. npm start   <br>
+     
    Runs the app in the development mode.
    Open http://localhost:3000 to view it in your browser.
 
