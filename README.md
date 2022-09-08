@@ -10,7 +10,7 @@
   
    <h1> Getting Started with install Node </h1>
    
-   link: https://nodejs.org/en/download/
+   link: 🔗 https://nodejs.org/en/download/
    
   
    <h1> Getting Started with Create React App </h1>
@@ -19,7 +19,7 @@
    
    <h1>How to Run </h1> 
    
-   <h2> Clone this repository: </h2> https://github.com/paruljamwal/Deck_Card_Game.git    <br>
+   <h2> Clone this repository: </h2> 🔗 https://github.com/paruljamwal/Deck_Card_Game.git    <br>
     step1. open cmdpromt or gitbash  <br>
     step2. clone the repo..  <br>
     step3.   npm i  <br>
@@ -28,7 +28,7 @@
    Runs the app in the development mode.  <br>
    Open http://localhost:3000 to view it in your browser.  <br>
 
- <h1> Demo </h1>: https://exquisite-fox-df427b.netlify.app/    <br>
+ <h1> Demo </h1> 🔗  : https://exquisite-fox-df427b.netlify.app/    <br>
  
  <h1> FEATURES </h1>   <br>
    1. Shuffling random cards  <br>
