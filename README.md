@@ -17,9 +17,9 @@
    
    step 1. Goto any cmdPromt or gitbash or visual studio terminal then type <li> npx create-react-app ProjectName </li>  <br>
    
-   <h1>How to Run </h1>  <br>
+   <h1>How to Run </h1> 
    
-   <h1> Clone this repository: </h1> https://github.com/paruljamwal/Deck_Card_Game.git    <br>
+   <h2> Clone this repository: </h2> https://github.com/paruljamwal/Deck_Card_Game.git    <br>
     step1. open cmdpromt or gitbash  <br>
     step2. clone the repo..  <br>
     step3.   npm i  <br>
