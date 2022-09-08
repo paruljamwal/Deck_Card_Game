@@ -1,45 +1,65 @@
-import React from 'react'
-import Card from './Card';
-import {colors,symbols} from '../Db/db';
+import React, { useEffect, useState } from "react";
+import Card from "./Card";
+import { colors, symbols, numbers } from "../Db/db";
+import useRandomValueFromArray from "../CustomeHooks/RandomValue";
+import Score from "../Pages/Score";
+
+const CardsDeck = ({ cards }) => {
+
+  let [player,setPlayer]=useState([]);
+  const [scoreArray]=useState([])
+  // console.log(colors[1].color);
+  // console.log(symbols);
+  // console.log(cards,"cards");
+  console.log(numbers,"numbers");
+
+  const { randomValueFromArray } = useRandomValueFromArray();
+
+     console.log( randomValueFromArray(numbers).number);
+
+  const cardDeck = {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    flexWrap: "wrap",
+ 
+  };
 
 
-const CardsDeck = ({cards}) => {
-// console.log(colors[1].color);
-// console.log(symbols);
-    const cardDeck={
-       display:"flex",
-       justifyContent:"center",
-       alignItems:"center",
-       flexWrap:"wrap"
-    }
+  useEffect(()=>{
+   console.log(scoreArray);
+  },[scoreArray])
 
-    const randomSymbol= symbols[Math.floor(Math.random()*4)];
-    console.log(randomSymbol);
-
-
-    const randomCardColor=()=>{
-        if(randomSymbol.name == 'spade'|| randomSymbol.name=="club" ){
-           return colors[0].color;
-        }
-        else if(randomSymbol.name == 'heart' || randomSymbol.name == 'diamond' ){
-           return colors[1].color;
-
-        }
-    }
-
-    // console.log(randomCardColor);
+  // console.log(player,"ply")
 
 
   return (
-    <div style={cardDeck} >
-      {
-        [...new Array(Number(cards))].map((num,i)=>{
-            i++;
-            return <Card key={i} name={randomSymbol.name} symbol={randomSymbol.symbol} color={randomCardColor()} number={i} />
-        })
-      }
+    <>
+    <Score scoreArray={scoreArray} />
+    <div style={cardDeck}>
+      { [...Array(Number(cards))].map((num, i) => {
+        i += 1;
+        const randomSymbol =
+          symbols[Math.floor(Math.random() * symbols.length)];
+    
+        return (
+          <Card
+            key={i}
+            name={randomSymbol.name}
+            symbol={randomSymbol.symbol}
+            color={
+              randomSymbol.name == "spade" || randomSymbol == "club"
+                ? `${colors[0].color}`
+                : `${colors[1].color}`
+            }
+            number={randomValueFromArray(numbers).number}
+            scoreArray={scoreArray}
+          />
+        );
+      })}
     </div>
-  )
-}
+    </>
+  );
+};
 
-export default CardsDeck
+export default CardsDeck;

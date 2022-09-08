@@ -2,54 +2,67 @@
 export const numbers=[
     {
         id:0,
-        number:"A",
+        score: 1,
+        number:1,
     },
     {
         id:1,
+        score: 1,
         number:2,
     },
     {
         id:2,
+        score: 1,
         number:3,
     },
     {
         id:3,
+        score: 1,
         number:4,
     },
     {
         id:4,
+        score: 1,
         number:5,
     },
     {
         id:5,
+        score: 1,
         number:6,
     },
     {
         id:6,
+        score: 1,
         number:7,
     },
     {
         id:7,
+        score: 1,
         number:8,
     },
     {
         id:8,
+        score: 1,
         number:9,
     },
     {
         id:9,
+        score: 1,
         number:10,
     },
     {
         id:10,
+        score: 1,
         number:11,
     },
     {
         id:11,
+        score: 1,
         number:12,
     },
     {
         id:12,
+        score: 1,
         number:13,
     }
 
